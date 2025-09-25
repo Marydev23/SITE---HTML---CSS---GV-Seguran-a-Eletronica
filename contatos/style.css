@@ -1,0 +1,18 @@
+
+/* 
+  🎨 PALETA DE CORES DO SITE
+
+  #00B0D8 - Azul claro (cor principal - botões, destaques)
+  #4B1E7E - Roxo escuro (usado no topo, rodapé, elementos importantes)
+  #F2F2F2 - Cinza claro (usado como fundo geral)
+  #1A1A1A - Preto escuro (cor para textos ou contraste)
+  #FFFFFFA - Branco com transparência (para sobreposição, fundos suaves)
+
+
+.ancizar-serif-<uniquifier> {
+  font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  */

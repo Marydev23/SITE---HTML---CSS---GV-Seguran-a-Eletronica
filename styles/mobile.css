@@ -1,0 +1,38 @@
+/* 🎨 PALETA DE CORES DO SITE */
+/* ... tudo que já tem ... */
+
+/* elementos do header */
+@media screen and (max-width:1200px) {
+  /* ajustes para telas até 1200px, se quiser */
+}
+
+header {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url('../images/headercapaM.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🔽 ADICIONE AQUI sua media query para telas menores que 768px */
+@media (max-width: 768px) {
+  .about .row {
+    flex-direction: column;
+  }
+
+  .about .container-image,
+  .about .content {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .about .container-image img {
+    border-radius: 1rem;
+    height: auto;
+  }
+
+  .btn {
+    align-self: center;
+  }
+}
